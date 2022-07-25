@@ -61,8 +61,8 @@ main {
   background: #ff00cc; /* fallback for old browsers */
   background: var(--webkit-linear-gradient-pink);
   background: var(--linear-gradient-pink);
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-color: transparent;
   font-size: 1.5rem;
   font-weight: bold;
 }
