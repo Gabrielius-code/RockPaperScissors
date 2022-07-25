@@ -58,7 +58,7 @@ main {
   font-family: sans-serif;
 }
 .information {
-  background: #ff00cc; /* fallback for old browsers */
+  background: #ff00cc;
   background: var(--webkit-linear-gradient-pink);
   background: var(--linear-gradient-pink);
   -webkit-background-clip: text;
