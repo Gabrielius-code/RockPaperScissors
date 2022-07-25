@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">ROCK PAPER SCISSORS</div>
+      </header>
+      <main>
+        <div class="information">First to score 5 points wins the game!</div>
+        <div class="scores">
+          <div class="player">Player: 0</div>
+          <div class="computer">Computer: 0</div>
+        </div>
+        <div class="container-for-choices">
+          <div class="information-wrapper">
+            <div class="information">PLAYER</div>
+            <div class="choices">
+              <div class="player-choice">
+                <img
+                  src="images/rock.svg"
+                  alt="rock image"
+                  data-choice="rock"
+                />
+              </div>
+              <div class="player-choice">
+                <img
+                  src="images/paper.svg"
+                  alt="paper image"
+                  data-choice="paper"
+                />
+              </div>
+              <div class="player-choice">
+                <img
+                  src="images/scissors.svg"
+                  alt="scissors image"
+                  data-choice="scissors"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="information-wrapper">
+            <div class="information">COMPUTER</div>
+            <div class="computer-choices">
+              <div class="computer-choice">
+                <img
+                  src="images/rock.svg"
+                  alt="rock image"
+                  data-choiceComputer="rock"
+                />
+              </div>
+              <div class="computer-choice">
+                <img
+                  src="images/paper.svg"
+                  alt="paper image"
+                  data-choiceComputer="paper"
+                />
+              </div>
+              <div class="computer-choice">
+                <img
+                  src="images/scissors.svg"
+                  alt="scissors image"
+                  data-choiceComputer="scissors"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button class="restart">RESTART</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
